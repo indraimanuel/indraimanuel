@@ -43,23 +43,27 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 ### AI Research Engineer. Laputa, Inc., Seoul · Dec 2025 – present
 - Develop an LLM-based multimodal Q&A system over Korean educational textbooks
 - Own the RAG and agentic workflow around a 26B VLM MoE model, the database and PDF-extraction pipeline, and cloud-GPU deployment (RunPod, Docker, EC2)
-- Proposed and lead the document-hierarchy repair research project  
+- Proposed and lead the document-hierarchy repair research project
+
 `LLM` `RAG` `agentic workflows` `vLLM` `Qdrant` `Unsloth` `Docker` `RunPod` `EC2`
  
 ### AI Research Engineer. STANS, Inc. (MDS Intelligence), Seoul · Oct 2024 – Nov 2025
 - Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11)
 - Built auto-labeling pipelines and annotation guidelines; prepared the violence-detection system for KISA school-safety certification evaluation
-- Detection and crowd-density systems deployed across Seoul subway stations  
+- Detection and crowd-density systems deployed across Seoul subway stations
+
 `object detection` `action recognition` `crowd counting` `ONNX` `TensorRT` `quantization` `MLOps`
  
 ### Graduate Student Researcher. Image Processing Lab, Dongseo University, Busan · Sep 2019 – Aug 2024
 - Generative models for image restoration under Prof. Suk-Ho Lee; five first-author papers
 - Lab projects beyond the thesis: a commissioned DeepView implementation for ETRI, U-Net blood-vessel segmentation, CSRNet crowd counting
-- Funded by NRF, ETRI, and Dongseo University research grants  
+- Funded by NRF, ETRI, and Dongseo University research grants
+
 `GAN` `diffusion models` `image restoration` `view synthesis` `segmentation`
  
 ### Android App Developer. PT. Mat Ali Teknologi, Surabaya · Feb – Jul 2019
-- Developed an Android chat application  
+- Developed an Android chat application
+
 `Kotlin` `Android` `Node.js`
 
 ## 🎓 Education
