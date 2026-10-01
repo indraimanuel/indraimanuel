@@ -1,16 +1,82 @@
-## Hi there 👋
+# Hi, I'm Indra 👋
 
-<!--
-**indraimanuel/indraimanuel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI researcher and engineer in Seoul, from Surabaya, Indonesia. Ph.D. in Computer Engineering (Dongseo University, 2024). I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running across Seoul's subway stations.
 
-Here are some ideas to get you started:
+🌐 [indraimanuel.github.io](https://indraimanuel.github.io) · ✉️ indraimanuel145@gmail.com · [LinkedIn](https://www.linkedin.com/in/indra-imanuel/) · [YouTube](https://www.youtube.com/@IndrainKorea)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**I'm currently looking for a postdoctoral position** (available from early 2027).
+
+---
+
+## 🔬 Current research
+
+**The Calibration Law: diagnosing and repairing answer-position bias in MoE vision–language models**
+Independent project, Jan 2026 – present · manuscript in preparation (ICML 2027 target) · project lead, with two collaborators
+MoE VLMs fail badly at telling apart images that differ in one small detail. We show the underlying failure is a severe answer-position bias, introduce a zero-cost diagnostic (the *bias index*) that tracks capability across eight open MoE VLMs, and establish a "calibration law": training-free interventions: router steering, prompting, output-logit calibration, succeed in proportion to how well they calibrate that bias. A label-free recipe greatly improves the VisMin group score, transfers zero-shot to Winoground and ColorSwap, and is localized causally to final-layer prefill routing.
+
+**When can a second pass fix document structure? An end-to-end anatomy of hierarchy repair**
+Laputa, 2026 · manuscript in preparation (ICDAR 2027 target) · proposed and lead the project
+PDF extractors recover text well and document hierarchy poorly. A self-supervised 115M pointer model, trained on pseudo-labels mined from section numbering and embedded PDF outlines with no human annotation, benchmarked end-to-end against deterministic rules, a 26B LLM, and the supervised 4B multimodal state of the art on three benchmarks. Preliminary results show deep, unnumbered book hierarchy is largely invisible to text-side and crop-level methods alike.
+
+**Research interests:** vision–language models · Mixture-of-Experts and efficient architectures · fine-grained visual understanding · model diagnosis, repair, and evaluation methodology · multimodal document understanding · generative models for image restoration
+
+## 📄 Publications (first author)
+
+- **Optimized Color Filter Array for Denoising Diffusion Null-Space Model-Based Demosaicing.** I. Imanuel, H. Yang, S. Lee. *IEEE Access*, 2024. [doi](https://doi.org/10.1109/ACCESS.2024.3448451) · SCIE
+- **Denoising Diffusion Null-Space Model and Colorization based Image Compression.** I. Imanuel, D. Kang, S. Lee. *Int. J. Internet, Broadcasting and Communication*, 16(2), 2024 · KCI
+- **Demosaicing based Image Compression with Channel-wise Decoder.** I. Imanuel, S. Lee. *Int. J. Internet, Broadcasting and Communication*, 15(4), 2023 · KCI
+- **Image Compression with Channel-wise Decoder.** I. Imanuel, S. Lee. *IEEE ICCE-Asia*, 2022. [doi](https://doi.org/10.1109/ICCE-Asia57006.2022.9954761) · 🏅 Best Paper Award (Silver Prize)
+- **Super-resolution with adversarial loss on the feature maps of the generated high-resolution image.** I. Imanuel, S. Lee. *Electronics Letters*, 58, 2022. [doi](https://doi.org/10.1049/ell2.12360) · SCIE
+
+## 💼 Experience
+
+| | | |
+|---|---|---|
+| **AI Research Engineer** | Laputa, Inc., Seoul | Dec 2025 – present |
+| | LLM-based multimodal Q&A system over Korean educational textbooks: LLM research, the RAG and agentic workflow around a 26B VLM MoE model, database and PDF-extraction pipeline, cloud-GPU deployment (RunPod, Docker, EC2). Lead of the document-hierarchy repair project. | |
+| **AI Research Engineer** | STANS, Inc. (MDS Intelligence), Seoul | Oct 2024 – Nov 2025 |
+| | Computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11); auto-labeling pipelines; quantization (ONNX, TensorRT). Detection and crowd-density systems deployed across Seoul subway stations. Other AI projects include LLM based AI translation system for Korean & Southeast Asian construction workers. | |
+| **Graduate Student Researcher** | Image Processing Lab, Dongseo University, Busan | Sep 2019 – Aug 2024 |
+| | Generative models for image restoration under Prof. Suk-Ho Lee; five first-author papers; lab projects incl. a commissioned DeepView implementation for ETRI, U-Net blood-vessel segmentation, CSRNet crowd counting. | |
+| **Android App Developer** | PT. Mat Ali Teknologi, Surabaya | Feb – Jul 2019 |
+| | Developed an Android chat application (Android Studio, Kotlin, Node.js). | |
+
+## 🎓 Education
+
+- **Ph.D., Computer Engineering**. Dongseo University, 2021–2024. Thesis: *Image Compression and Demosaicing based on Denoising Diffusion Null-Space Model*. GPA 4.33/4.50.
+- **M.Sc., Computer Engineering**. Dongseo University, 2019–2021. Thesis: *Super-Resolution with Adversarial Loss on the Feature Maps of the Generated High-Resolution Image*. GPA 4.50/4.50.
+- **B.Comp., Informatics Engineering**. University of Surabaya, 2015–2019. Thesis: *"Committee Management System for Dept. of Informatics in University of Surabaya"*. Summa cum laude, best graduate of the department. GPA 3.94/4.00.
+
+## 🛠️ Selected projects
+
+- **Multimodal textbook Q&A**. RAG and agentic workflow around a 26B VLM MoE model; vLLM, Qdrant, Unsloth, Docker, RunPod *(Laputa)*
+- **Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed across subway stations *(STANS)*
+- **School violence detection**. SlowOnly + optical-flow models integrated with YOLOv11, prepared for KISA certification evaluation *(STANS)*
+- **Construction-site real-time translation**. early-stage R&D: STT, NMT, TTS, LLM fine-tuning/RAG *(STANS)*
+- **Diffusion-based demosaicing and compression**. learned CFA pattern and optimization scheme *(Ph.D.)*
+- **GAN super-resolution with feature-map adversarial loss**. outperformed the SOTA CVPR method on a real-world benchmark at the time *(M.Sc.)*
+- **DeepView multi-plane view synthesis**. commissioned reimplementation for ETRI *(lab)*
+- Class projects: DQN on Sonic 2, adversarial masking of re-ID models, deep learning for network routing, genetic algorithms for TSP, curve interpolation from scratch
+
+Full list with details → [indraimanuel.github.io/projects](https://indraimanuel.github.io/projects.html)
+
+## 🎤 Talks & teaching
+
+- Guest lecture, *Vision–Language Models: Trends, Applications, and Implementation*. Indonesian undergraduate webinar (ProjekinAja), Nov 2025
+- Speaker, International Symposium on Management 2025 (University of Surabaya × Ho Chi Minh University of Banking). AI applications and data generation, May 2025
+- Guest lecture for graduate students, University of Surabaya. Computer vision and image generation (CNNs, GANs, diffusion), Sep 2024
+- Teaching assistant, Department of Informatics, University of Surabaya. Algorithms & Programming, Web Design, Web Programming, 2016–2018
+
+## 🧰 Skills
+
+**Frameworks & tools:** PyTorch, TensorFlow, ONNX, TensorRT, OpenCV · vLLM, Unsloth, Qdrant, Hugging Face Transformers, bitsandbytes · Docker, RunPod, EC2 · MLOps and production model deployment
+**Languages:** Indonesian (native) · English (IELTS 8.0) · Korean (KIIP Level 5 / TOPIK 4 equivalent)
+
+## 🌏 Beyond research
+
+- 🏝️ Field surveyor and translator for a Hansung University study on Indonesian and East Timorese laborers on remote Korean islands (Gaeya, Bogil, Nohwa), 2021
+- 📱 Built a physics learning app for Indonesian high-school students for a volunteer education program (Unity/C#)
+- 🎥 [Indra in Korea](https://www.youtube.com/@IndrainKorea). A YouTube channel about international student life and travel in Korea, 2019–2025; scripted, filmed, and edited everything myself
+- 🏆 Excellent Researcher Award (Dongseo Graduate School) · Best Paper Award, IEEE ICCE-Asia 2022 · full scholarships across all three degrees
+
+The story from Surabaya to Busan to Seoul → [indraimanuel.github.io/about](https://indraimanuel.github.io/about.html)
