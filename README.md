@@ -2,7 +2,10 @@
 
 AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running across Seoul's subway stations.
 
-🌐 [indraimanuel.github.io](https://indraimanuel.github.io) · ✉️ indraimanuel145@gmail.com · [LinkedIn](https://www.linkedin.com/in/indra-imanuel/) · [YouTube](https://www.youtube.com/@IndrainKorea)
+[![Website](https://img.shields.io/badge/Website-indraimanuel.github.io-00c878?style=flat&logo=googlechrome&logoColor=white)](https://indraimanuel.github.io)
+[![Email](https://img.shields.io/badge/Email-indraimanuel145@gmail.com-red?style=flat&logo=gmail)](mailto:indraimanuel145@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-indra--imanuel-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/indra-imanuel/)
+[![YouTube](https://img.shields.io/badge/YouTube-Indra%20in%20Korea-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@IndrainKorea)
 
 **I'm currently looking for a postdoctoral position** (available from early 2027).
 
@@ -24,24 +27,40 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 
 ## 📄 Publications (first author)
 
-- **Optimized Color Filter Array for Denoising Diffusion Null-Space Model-Based Demosaicing.** I. Imanuel, H. Yang, S. Lee. *IEEE Access*, 2024. [doi](https://doi.org/10.1109/ACCESS.2024.3448451) · SCIE
-- **Denoising Diffusion Null-Space Model and Colorization based Image Compression.** I. Imanuel, D. Kang, S. Lee. *Int. J. Internet, Broadcasting and Communication*, 16(2), 2024 · KCI
-- **Demosaicing based Image Compression with Channel-wise Decoder.** I. Imanuel, S. Lee. *Int. J. Internet, Broadcasting and Communication*, 15(4), 2023 · KCI
-- **Image Compression with Channel-wise Decoder.** I. Imanuel, S. Lee. *IEEE ICCE-Asia*, 2022. [doi](https://doi.org/10.1109/ICCE-Asia57006.2022.9954761) · 🏅 Best Paper Award (Silver Prize)
-- **Super-resolution with adversarial loss on the feature maps of the generated high-resolution image.** I. Imanuel, S. Lee. *Electronics Letters*, 58, 2022. [doi](https://doi.org/10.1049/ell2.12360) · SCIE
+- [**Optimized Color Filter Array for Denoising Diffusion Null-Space Model-Based Demosaicing.**](https://doi.org/10.1109/ACCESS.2024.3448451) I. Imanuel, H. Yang, S. Lee.  
+  *IEEE Access*, 2024. · `SCIE`
+- [**Denoising Diffusion Null-Space Model and Colorization based Image Compression.**](https://doi.org/10.7236/IJIBC.2024.16.2.22) I. Imanuel, D. Kang, S. Lee.  
+  *Int. J. Internet, Broadcasting and Communication*, 16(2), 2024 · `KCI`
+- [**Demosaicing based Image Compression with Channel-wise Decoder.**](https://doi.org/10.7236/IJIBC.2023.15.4.74) I. Imanuel, S. Lee.  
+  *Int. J. Internet, Broadcasting and Communication*, 15(4), 2023 · `KCI`
+- [**Image Compression with Channel-wise Decoder.**](https://doi.org/10.1109/ICCE-Asia57006.2022.9954761) I. Imanuel, S. Lee.  
+  *IEEE ICCE-Asia*, 2022. · `🏅 Best Paper Award (Silver Prize)`
+- [**Super-resolution with adversarial loss on the feature maps of the generated high-resolution image.**](https://doi.org/10.1049/ell2.12360) I. Imanuel, S. Lee.  
+  *Electronics Letters*, 58, 2022. · `SCIE`
 
 ## 💼 Experience
-
-| | | |
-|---|---|---|
-| **AI Research Engineer** | Laputa, Inc., Seoul | Dec 2025 – present |
-| | LLM-based multimodal Q&A system over Korean educational textbooks: LLM research, the RAG and agentic workflow around a 26B VLM MoE model, database and PDF-extraction pipeline, cloud-GPU deployment (RunPod, Docker, EC2). Lead of the document-hierarchy repair project. | |
-| **AI Research Engineer** | STANS, Inc. (MDS Intelligence Child company), Seoul | Oct 2024 – Nov 2025 |
-| | Computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11); auto-labeling pipelines; quantization (ONNX, TensorRT). Detection and crowd-density systems deployed across Seoul subway stations. Other AI projects include LLM based AI translation system for Korean & Southeast Asian construction workers. | |
-| **Graduate Student Researcher** | Image Processing Lab, Dongseo University, Busan | Sep 2019 – Aug 2024 |
-| | Generative models for image restoration under Prof. Suk-Ho Lee; five first-author papers; lab projects incl. a commissioned DeepView implementation for ETRI, U-Net blood-vessel segmentation, CSRNet crowd counting. | |
-| **Android App Developer** | PT. Mat Ali Teknologi, Surabaya | Feb – Jul 2019 |
-| | Developed an Android chat application (Android Studio, Kotlin, Node.js). | |
+ 
+### AI Research Engineer. Laputa, Inc., Seoul · Dec 2025 – present
+- Develop an LLM-based multimodal Q&A system over Korean educational textbooks
+- Own the RAG and agentic workflow around a 26B VLM MoE model, the database and PDF-extraction pipeline, and cloud-GPU deployment (RunPod, Docker, EC2)
+- Proposed and lead the document-hierarchy repair research project
+`LLM` `RAG` `agentic workflows` `vLLM` `Qdrant` `Unsloth` `Docker` `RunPod` `EC2`
+ 
+### AI Research Engineer. STANS, Inc. (MDS Intelligence), Seoul · Oct 2024 – Nov 2025
+- Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11)
+- Built auto-labeling pipelines and annotation guidelines; prepared the violence-detection system for KISA school-safety certification evaluation
+- Detection and crowd-density systems deployed across Seoul subway stations
+`object detection` `action recognition` `crowd counting` `ONNX` `TensorRT` `quantization` `MLOps`
+ 
+### Graduate Student Researcher. Image Processing Lab, Dongseo University, Busan · Sep 2019 – Aug 2024
+- Generative models for image restoration under Prof. Suk-Ho Lee; five first-author papers
+- Lab projects beyond the thesis: a commissioned DeepView implementation for ETRI, U-Net blood-vessel segmentation, CSRNet crowd counting
+- Funded by NRF, ETRI, and Dongseo University research grants
+`GAN` `diffusion models` `image restoration` `view synthesis` `segmentation`
+ 
+### Android App Developer. PT. Mat Ali Teknologi, Surabaya · Feb – Jul 2019
+- Developed an Android chat application
+`Kotlin` `Android` `Node.js`
 
 ## 🎓 Education
 
