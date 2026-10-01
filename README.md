@@ -1,6 +1,6 @@
 # Hi, I'm Indra 👋
 
-AI researcher and engineer in Seoul, from Surabaya, Indonesia. Ph.D. in Computer Engineering (Dongseo University, 2024). I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running across Seoul's subway stations.
+AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running across Seoul's subway stations.
 
 🌐 [indraimanuel.github.io](https://indraimanuel.github.io) · ✉️ indraimanuel145@gmail.com · [LinkedIn](https://www.linkedin.com/in/indra-imanuel/) · [YouTube](https://www.youtube.com/@IndrainKorea)
 
@@ -10,12 +10,14 @@ AI researcher and engineer in Seoul, from Surabaya, Indonesia. Ph.D. in Computer
 
 ## 🔬 Current research
 
-**The Calibration Law: diagnosing and repairing answer-position bias in MoE vision–language models**
-Independent project, Jan 2026 – present · manuscript in preparation (ICML 2027 target) · project lead, with two collaborators
+**The Calibration Law: diagnosing and repairing answer-position bias in MoE vision–language models**  
+*Independent project · manuscript in preparation (ICML 2027 target) · project lead, with two collaborators*
+
 MoE VLMs fail badly at telling apart images that differ in one small detail. We show the underlying failure is a severe answer-position bias, introduce a zero-cost diagnostic (the *bias index*) that tracks capability across eight open MoE VLMs, and establish a "calibration law": training-free interventions: router steering, prompting, output-logit calibration, succeed in proportion to how well they calibrate that bias. A label-free recipe greatly improves the VisMin group score, transfers zero-shot to Winoground and ColorSwap, and is localized causally to final-layer prefill routing.
 
-**When can a second pass fix document structure? An end-to-end anatomy of hierarchy repair**
-Laputa, 2026 · manuscript in preparation (ICDAR 2027 target) · proposed and lead the project
+**When can a second pass fix document structure? An end-to-end anatomy of hierarchy repair**  
+*Laputa, 2026 · manuscript in preparation (ICDAR 2027 target) · proposed and lead the project*
+
 PDF extractors recover text well and document hierarchy poorly. A self-supervised 115M pointer model, trained on pseudo-labels mined from section numbering and embedded PDF outlines with no human annotation, benchmarked end-to-end against deterministic rules, a 26B LLM, and the supervised 4B multimodal state of the art on three benchmarks. Preliminary results show deep, unnumbered book hierarchy is largely invisible to text-side and crop-level methods alike.
 
 **Research interests:** vision–language models · Mixture-of-Experts and efficient architectures · fine-grained visual understanding · model diagnosis, repair, and evaluation methodology · multimodal document understanding · generative models for image restoration
@@ -34,7 +36,7 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 |---|---|---|
 | **AI Research Engineer** | Laputa, Inc., Seoul | Dec 2025 – present |
 | | LLM-based multimodal Q&A system over Korean educational textbooks: LLM research, the RAG and agentic workflow around a 26B VLM MoE model, database and PDF-extraction pipeline, cloud-GPU deployment (RunPod, Docker, EC2). Lead of the document-hierarchy repair project. | |
-| **AI Research Engineer** | STANS, Inc. (MDS Intelligence), Seoul | Oct 2024 – Nov 2025 |
+| **AI Research Engineer** | STANS, Inc. (MDS Intelligence Child company), Seoul | Oct 2024 – Nov 2025 |
 | | Computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11); auto-labeling pipelines; quantization (ONNX, TensorRT). Detection and crowd-density systems deployed across Seoul subway stations. Other AI projects include LLM based AI translation system for Korean & Southeast Asian construction workers. | |
 | **Graduate Student Researcher** | Image Processing Lab, Dongseo University, Busan | Sep 2019 – Aug 2024 |
 | | Generative models for image restoration under Prof. Suk-Ho Lee; five first-author papers; lab projects incl. a commissioned DeepView implementation for ETRI, U-Net blood-vessel segmentation, CSRNet crowd counting. | |
@@ -69,7 +71,7 @@ Full list with details → [indraimanuel.github.io/projects](https://indraimanue
 
 ## 🧰 Skills
 
-**Frameworks & tools:** PyTorch, TensorFlow, ONNX, TensorRT, OpenCV · vLLM, Unsloth, Qdrant, Hugging Face Transformers, bitsandbytes · Docker, RunPod, EC2 · MLOps and production model deployment
+**Frameworks & tools:** PyTorch, TensorFlow, ONNX, TensorRT, OpenCV · vLLM, Unsloth, Qdrant, Hugging Face Transformers, bitsandbytes · Docker, RunPod, EC2 · MLOps and production model deployment  
 **Languages:** Indonesian (native) · English (IELTS 8.0) · Korean (KIIP Level 5 / TOPIK 4 equivalent)
 
 ## 🌏 Beyond research
