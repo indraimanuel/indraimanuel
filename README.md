@@ -92,7 +92,7 @@ Full list with details → [indraimanuel.github.io/projects](https://indraimanue
 - Guest lecture for graduate students, University of Surabaya. Computer vision and image generation (CNNs, GANs, diffusion), Sep 2024
 - Teaching assistant, Department of Informatics, University of Surabaya. Algorithms & Programming, Web Design, Web Programming, 2016–2018
 
-Full list with PPTs (coming soon) → [indraimanuel.github.io/projects](https://indraimanuel.github.io/talks.html)
+Full list with PPTs (coming soon) → [indraimanuel.github.io/talks](https://indraimanuel.github.io/talks.html)
 
 ## 🧰 Skills
 
