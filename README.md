@@ -1,6 +1,6 @@
 # Hi, I'm Indra 👋
 
-AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running at Seoul subway stations.
+AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; and on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running at Seoul subway stations.
 
 [![Website](https://img.shields.io/badge/Website-indraimanuel.github.io-00c878?style=flat&logo=googlechrome&logoColor=white)](https://indraimanuel.github.io)
 [![Email](https://img.shields.io/badge/Email-indraimanuel145@gmail.com-red?style=flat&logo=gmail)](mailto:indraimanuel145@gmail.com)
@@ -70,13 +70,13 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 
 - **Ph.D., Computer Engineering**. Dongseo University, 2021–2024. Thesis: *Image Compression and Demosaicing based on Denoising Diffusion Null-Space Model*. GPA 4.33/4.50.
 - **M.Sc., Computer Engineering**. Dongseo University, 2019–2021. Thesis: *Super-Resolution with Adversarial Loss on the Feature Maps of the Generated High-Resolution Image*. GPA 4.50/4.50.
-- **B.Comp., Informatics Engineering**. University of Surabaya, 2015–2019. Thesis: *"Committee Management System for Dept. of Informatics in University of Surabaya"*. Summa cum laude, best graduate of the department. GPA 3.94/4.00.
+- **B.Comp., Informatics Engineering**. University of Surabaya, 2015–2019. Thesis: *Committee Management System for Dept. of Informatics in University of Surabaya*. Summa cum laude, best graduate of the department. GPA 3.94/4.00.
 
 ## 🛠️ Selected projects
 
-- **Multimodal textbook Q&A**. RAG and agentic workflow around a 26B VLM MoE model; vLLM, Qdrant, Unsloth, Docker, RunPod *(Laputa)*
-- **Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed at subway stations *(STANS)*
-- **School violence detection**. SlowOnly + optical-flow models integrated with YOLOv11, prepared for KISA certification evaluation *(STANS)*
+- **Unibook: Multimodal textbook Q&A**. RAG and agentic workflow around a 26B VLM MoE model; vLLM, Qdrant, Unsloth, Docker, RunPod *(Laputa)*
+- **AWAS-Insight: Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed at Seoul subway stations *(STANS)*
+- **AWAS-Insight: School violence detection**. SlowOnly + optical-flow models integrated with YOLOv11, prepared for KISA certification evaluation *(STANS)*
 - **Construction-site real-time translation**. early-stage R&D: STT, NMT, TTS, LLM fine-tuning/RAG *(STANS)*
 - **Diffusion-based demosaicing and compression**. learned CFA pattern and optimization scheme *(Ph.D.)*
 - **GAN super-resolution with feature-map adversarial loss**. outperformed the SOTA CVPR method on a real-world benchmark at the time *(M.Sc.)*
@@ -91,6 +91,8 @@ Full list with details → [indraimanuel.github.io/projects](https://indraimanue
 - Speaker, International Symposium on Management 2025 (University of Surabaya × Ho Chi Minh University of Banking). AI applications and data generation, May 2025
 - Guest lecture for graduate students, University of Surabaya. Computer vision and image generation (CNNs, GANs, diffusion), Sep 2024
 - Teaching assistant, Department of Informatics, University of Surabaya. Algorithms & Programming, Web Design, Web Programming, 2016–2018
+
+Full list with PPTs (coming soon) → [indraimanuel.github.io/projects](https://indraimanuel.github.io/talks.html)
 
 ## 🧰 Skills
 
