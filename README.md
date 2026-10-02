@@ -1,6 +1,6 @@
 # Hi, I'm Indra 👋
 
-AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running across Seoul's subway stations.
+AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in Computer Engineering and I work on **vision–language models**, currently on diagnosing and repairing fine-grained discrimination failures in Mixture-of-Experts VLMs; And on **multimodal document understanding** for retrieval systems. Before that: generative models for image restoration, and real-time computer-vision systems now running at Seoul subway stations.
 
 [![Website](https://img.shields.io/badge/Website-indraimanuel.github.io-00c878?style=flat&logo=googlechrome&logoColor=white)](https://indraimanuel.github.io)
 [![Email](https://img.shields.io/badge/Email-indraimanuel145@gmail.com-red?style=flat&logo=gmail)](mailto:indraimanuel145@gmail.com)
@@ -41,7 +41,7 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 ## 💼 Experience
  
 **AI Research Engineer. Laputa, Inc., Seoul · Dec 2025 – present**
-- Develop an LLM-based multimodal Q&A system over Korean educational textbooks
+- Develop an LLM-based multimodal Q&A system over Korean university textbooks
 - Own the RAG and agentic workflow around a 26B VLM MoE model, the database and PDF-extraction pipeline, and cloud-GPU deployment (RunPod, Docker, EC2)
 - Proposed and lead the document-hierarchy repair research project
 
@@ -50,7 +50,7 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 **AI Research Engineer. STANS, Inc. (MDS Intelligence), Seoul · Oct 2024 – Nov 2025**
 - Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11)
 - Built auto-labeling pipelines and annotation guidelines; prepared the violence-detection system for KISA school-safety certification evaluation
-- Detection and crowd-density systems deployed across Seoul subway stations
+- Detection and crowd-density systems deployed at Seoul subway stations
 
 `object detection` `action recognition` `crowd counting` `ONNX` `TensorRT` `quantization` `MLOps`
  
@@ -75,7 +75,7 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 ## 🛠️ Selected projects
 
 - **Multimodal textbook Q&A**. RAG and agentic workflow around a 26B VLM MoE model; vLLM, Qdrant, Unsloth, Docker, RunPod *(Laputa)*
-- **Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed across subway stations *(STANS)*
+- **Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed at subway stations *(STANS)*
 - **School violence detection**. SlowOnly + optical-flow models integrated with YOLOv11, prepared for KISA certification evaluation *(STANS)*
 - **Construction-site real-time translation**. early-stage R&D: STT, NMT, TTS, LLM fine-tuning/RAG *(STANS)*
 - **Diffusion-based demosaicing and compression**. learned CFA pattern and optimization scheme *(Ph.D.)*
