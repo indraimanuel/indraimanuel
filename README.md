@@ -48,7 +48,7 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 `LLM` `RAG` `agentic workflows` `vLLM` `Qdrant` `Unsloth` `Docker` `RunPod` `EC2`
  
 **AI Research Engineer. STANS, Inc. (MDS Intelligence subsidiary), Seoul · Oct 2024 – Nov 2025**
-- Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11)
+- Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection, crowd counting, violence detection (action recognition + optical flow)
 - Built auto-labeling pipelines and annotation guidelines; prepared the violence-detection system for KISA school-safety certification evaluation
 - Detection and crowd-density systems deployed at Seoul subway stations
 
@@ -75,8 +75,8 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 ## 🛠️ Selected projects
 
 - **Unibook: Multimodal textbook Q&A**. RAG and agentic workflow around a 26B VLM MoE model; vLLM, Qdrant, Unsloth, Docker, RunPod *(Laputa)*
-- **AWAS-Insight: Crowd-density and object detection for Seoul metro**. P2PNet and YOLO, TensorRT/ONNX, deployed at Seoul subway stations *(STANS)*
-- **AWAS-Insight: School violence detection**. SlowOnly + optical-flow models integrated with YOLOv11, prepared for KISA certification evaluation *(STANS)*
+- **AWAS-Insight: Crowd-density and object detection for Seoul metro**. Real-time crowd-counting and object-detection models, TensorRT/ONNX, deployed at Seoul subway stations *(STANS)*
+- **AWAS-Insight: School violence detection**. Action-recognition and optical-flow models integrated with real-time object detector, prepared for KISA certification evaluation *(STANS)*
 - **Construction-site real-time translation**. early-stage R&D: STT, NMT, TTS, LLM fine-tuning/RAG *(STANS)*
 - **Diffusion-based demosaicing and compression**. learned CFA pattern and optimization scheme *(Ph.D.)*
 - **GAN super-resolution with feature-map adversarial loss**. outperformed the SOTA CVPR method on a real-world benchmark at the time *(M.Sc.)*
