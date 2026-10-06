@@ -40,14 +40,14 @@ PDF extractors recover text well and document hierarchy poorly. A self-supervise
 
 ## 💼 Experience
  
-**AI Research Engineer. Laputa, Inc., Seoul · Dec 2025 – present**
+**AI Research Engineer. Laputa, Inc. (AI subsidiary of Sapyoung Publisher), Seoul · Dec 2025 – present**
 - Develop an LLM-based multimodal Q&A system over Korean university textbooks
 - Own the RAG and agentic workflow around a 26B VLM MoE model, the database and PDF-extraction pipeline, and cloud-GPU deployment (RunPod, Docker, EC2)
 - Proposed and lead the document-hierarchy repair research project
 
 `LLM` `RAG` `agentic workflows` `vLLM` `Qdrant` `Unsloth` `Docker` `RunPod` `EC2`
  
-**AI Research Engineer. STANS, Inc. (MDS Intelligence), Seoul · Oct 2024 – Nov 2025**
+**AI Research Engineer. STANS, Inc. (MDS Intelligence subsidiary), Seoul · Oct 2024 – Nov 2025**
 - Surveyed, fine-tuned, and quantized computer-vision models for intelligent CCTV: object detection (YOLO), crowd counting (P2PNet), violence detection (SlowOnly + optical flow with YOLOv11)
 - Built auto-labeling pipelines and annotation guidelines; prepared the violence-detection system for KISA school-safety certification evaluation
 - Detection and crowd-density systems deployed at Seoul subway stations
