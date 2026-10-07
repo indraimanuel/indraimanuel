@@ -16,7 +16,7 @@ AI researcher and engineer in Seoul, from Surabaya, Indonesia. I hold a Ph.D. in
 **The Calibration Law: diagnosing and repairing answer-position bias in MoE vision–language models**  
 *Independent project · manuscript in preparation (ICML 2027 target) · project lead, with two collaborators*
 
-MoE VLMs fail badly at telling apart images that differ in one small detail. We show the underlying failure is a severe answer-position bias, introduce a zero-cost diagnostic (the *bias index*), and establish, across eight open MoE VLMs, a "calibration law": training-free interventions (router steering, prompting, output-logit calibration) succeed in proportion to how well they calibrate that bias. A label-free recipe greatly improves the VisMin group score and transfers zero-shot to Winoground and ColorSwap, and the router-steering effect is localized causally to final-layer prefill routing.
+MoE VLMs fail badly at telling apart images that differ in one small detail. We show much of the underlying failure is a severe answer-position bias, introduce a zero-cost diagnostic (the *bias index*), and establish, across eight open MoE VLMs, a "calibration law": training-free interventions (router steering, prompting, output-logit calibration) succeed in proportion to how well they calibrate that bias. A label-free recipe greatly improves the VisMin group score and transfers zero-shot to Winoground and ColorSwap, and the router-steering effect is localized causally to final-layer prefill routing.
 
 **When can a second pass fix document structure? An end-to-end anatomy of hierarchy repair**  
 *Laputa, 2026 · manuscript in preparation (ICDAR 2027 target) · proposed and lead the project*
